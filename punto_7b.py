@@ -1,3 +1,14 @@
+'''
+Taller Ciencia de Datos punto 7b
+Integrantes
+Beltrán Chavez Mateo
+Caro Alarcón Gennier
+Sarmiento Duvan
+
+7. Utiliza tipos de datos primitivos para crear estructuras simples como:
+b Un array que contiene una lista de números
+'''
+
 # Dictionary to store the weights of clothes washed per day
 week = {
     "Lunes": [],
@@ -115,4 +126,4 @@ while True:
         print("Gracias por usar el programa")
         break
     else:
-        print("Opción no válida. Por favor intente de nuevo.")
+        print("La opcion no es válida. Por favor intente de nuevo.\n")

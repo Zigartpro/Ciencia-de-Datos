@@ -1,9 +1,12 @@
 '''
-Taller Ciencia de Datos punto 7
+Taller Ciencia de Datos punto 7a
 Integrantes
 Beltrán Chavez Mateo
 Caro Alarcón Gennier
 Sarmiento Duvan
+
+7. Utiliza tipos de datos primitivos para crear estructuras simples como:
+a Un registro que almacene el nombre y la edad de una persona
 '''
 from tabulate import tabulate
 
@@ -66,27 +69,23 @@ def show_all_clients():
     print(tabulate(table, headers=headers, tablefmt="grid"))
     print()
 
-# Main Menu
-def menu():
-    while True:
-        print("----- Menú -----")
-        print("1. Registrar un Cliente")
-        print("2. Buscar una Cliente")
-        print("3. Mostrar todos los Clientes")
-        print("4. Salir")
-        option = input("Por favor seleccione una de las siguiente opciones: ")
 
-        if option == "1":
-            client_register()
-        elif option == "2":
-            search_client()
-        elif option == "3":
-            show_all_clients()
-        elif option == "4":
-            print("Gracias por usar el programa")
-            break
-        else:
-            print("La opcion no es válida. Por favor intente de nuevo.\n")
+while True:
+    print("----- Menú -----")
+    print("1. Registrar un Cliente")
+    print("2. Buscar una Cliente")
+    print("3. Mostrar todos los Clientes")
+    print("4. Salir")
+    option = input("Por favor seleccione una de las siguiente opciones: ")
 
-# Start the menu
-menu()
+    if option == "1":
+        client_register()
+    elif option == "2":
+        search_client()
+    elif option == "3":
+        show_all_clients()
+    elif option == "4":
+        print("Gracias por usar el programa")
+        break
+    else:
+        print("La opcion no es válida. Por favor intente de nuevo.\n")

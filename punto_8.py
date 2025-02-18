@@ -4,6 +4,12 @@ Integrantes
 Beltrán Chavez Mateo
 Caro Alarcón Gennier
 Sarmiento Duvan
+
+8. Plantea un problema sencillo que requiere el uso de entidades primitivas para su solución.
+Por ejemplo:
+a Calcular el área de un triángulo dados su base y altura
+b Determinar si un número es par o impar
+c Encontrar el número mayor de una lista de números
 '''
 
 #Function to calculate work table area (triangular)
